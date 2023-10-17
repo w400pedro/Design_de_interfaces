@@ -69,28 +69,28 @@ nav a.active {
     padding-left: 10px;
 }
 
-.central-cards{
-    background: fixed;
-}
-
 .cartas {
-    float: left;
     display: inline-flex;
     align-items: center;
-    
+    padding: 1%;
+    background-image: url("../pictures/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 2px gray;
+    margin-bottom: 4%;
 }
 
 .cards {
     width: 18%;
-    float: left;
+    margin: 2%;
 }
 
 .caption{
-    background: linear-gradient(90deg, rgb(68, 68, 115) 35%, rgb(23, 52, 58) 100%);
-    padding: 10px;
-    color: whitesmoke   ;
+    background: linear-gradient(90deg, rgb(223, 157, 137), rgb(231, 182, 127) 100%);
+    padding: 5%;
+    font-size: 1.8vw;
+    color: whitesmoke;
 }
-
 
 .conteudopai{
     background-color: black;
