@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Playfair+Display&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+}
+
+.icone{
+    width: 50px;
 }
 
 header {
@@ -85,13 +98,40 @@ nav a.active {
     margin: 2%;
 }
 
-.caption{
+.caption {
     background: linear-gradient(90deg, rgb(223, 157, 137), rgb(231, 182, 127) 100%);
     padding: 5%;
     font-size: 1.8vw;
     color: whitesmoke;
 }
 
-.conteudopai{
-    background-color: black;
+form {
+    display: block;
+    text-align: center;
 }
+
+fieldset{
+    border: none;
+}
+
+form > fieldset > input {
+    padding: 0.7%;
+    margin-bottom: 0.7%;
+    width: 15%;
+}
+
+form > fieldset > label{
+    margin-right: 2%;
+}
+
+form > fieldset > input:focus{
+    border: rgb(159, 223, 159) 4px solid;
+    border-radius: 3px;
+}
+
+form > input[type="submit"]:hover{
+    background-color: #9df39a;
+}
+
+
+
