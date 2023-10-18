@@ -108,6 +108,9 @@ nav a.active {
 form {
     display: block;
     text-align: center;
+    border: 1px black solid;
+    background-color: white;
+    padding: 1%;
 }
 
 fieldset{
@@ -123,6 +126,7 @@ form > fieldset > input {
 form > fieldset > label{
     margin-right: 2%;
 }
+
 
 form > fieldset > input:focus{
     border: rgb(159, 223, 159) 4px solid;
