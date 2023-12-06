@@ -1,0 +1,32 @@
+.imgs {
+    display: inline-flex;
+    align-items: center;
+    padding: 1%;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 2px gray;
+    margin-bottom: 4%;
+}
+
+.imagem {
+    width: 18%;
+    margin: 2%;
+}
+
+.a-img{
+    width: 1000px;
+}
+
+
+@keyframes bannerAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .banner {
+    animation: bannerAnimation 5s infinite;
+  }
+  
+  /* Add more styles as needed */
