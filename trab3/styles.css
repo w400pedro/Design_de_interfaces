@@ -19,14 +19,23 @@
 }
 
 
-@keyframes bannerAnimation {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-  
-  .banner {
+#banner {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transform-origin: center;
     animation: bannerAnimation 5s infinite;
+    transition: transform 0.3s ease-in-out;
   }
   
-  /* Add more styles as needed */
+  #banner:hover {
+    background-color: #e74c3c;
+    transform: scale(1.1); 
+  }
+
+  @keyframes bannerAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  
